@@ -1,0 +1,171 @@
+/* .head{
+    font-size: 20px;
+    position: absolute;
+    bottom: 70px;
+    padding-top: 20px;
+    font-size: 15rem;
+    letter-spacing: 40px;
+    right: 0px;
+    left: -10rem;
+    overflow: hidden;
+} */
+.head{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head h1{
+    color: goldenrod;
+    cursor: pointer;
+}
+.icon{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container{
+    background-image: url("/SOLO.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+}
+/* .out{
+    display: flex;
+    gap: 20px;
+} */
+
+.conty{
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+.heading{
+    /* padding-left: 5rem;
+    padding-top: 10rem; */
+    position: absolute;
+    left: -50px;
+    padding-top:80px;
+    display: flex;
+    gap: 23rem;
+}
+.heading img{
+    width: 30rem;
+}
+.main img{
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.conty p{
+    color: white;
+}
+
+
+.image2{
+    position: absolute;
+    left: 12rem;
+    top: 3rem;
+}
+.image1{
+    position: absolute;
+    left: 24rem;
+    top: 7rem;
+}
+.image3{
+    position: absolute;
+    left: 27rem;
+    top: 17rem;
+}
+.image4{
+    position: absolute;
+    left: 21rem;
+    top: 25rem;
+}
+.image5{
+    position: absolute;
+    left: 11rem;
+    top: 27rem;
+}
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content h1{
+    color: goldenrod;
+}
+.content h4{
+    font-size: 20px;
+}
+
+
+
+@media screen and (orientation:portrait) {
+    .heading{
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        gap:70px;
+    }
+    .config{
+        background-color: black;
+    }
+    .image3{
+        left: 20rem;
+    }
+    .conty{
+        width: 350px;
+        height: 400px;
+        padding: 20px;
+        border-radius: 50%;
+        border: 1px solid white;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .image2{
+        position: absolute;
+        left: 6rem;
+        top: 3rem;
+    }
+    .image1{
+        position: absolute;
+        left: 18rem;
+        top: 7rem;
+    }
+    
+    .image4{
+        position: absolute;
+        left: 16rem;
+        top: 25rem;
+    }
+    .image5{
+        position: absolute;
+        left: 6rem;
+        top: 27rem;
+    }
+    .config img{
+        width: 20rem;
+    }
+    .content{
+        padding: 20px;
+    }
+}
