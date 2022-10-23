@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-color: black;
     padding-top: 70px;
+    height: 100vh;
 }
 .head h1{
     color: goldenrod;
@@ -42,6 +43,7 @@
     display: flex;
     gap: 20px;
 }
+
 .btn1{
     padding: 15px;
     width: 10rem;
@@ -52,11 +54,15 @@
     border: none;
     font-size: 15px;
 }
-.btn1:hover{
-    background-color: black;
-    color: white;
-    border: 1px solid white;
+.btn1 a{
+    color: black;
+    transition: 0.5s;
 }
+
+.btn1 a:hover{
+    color: goldenrod;
+}
+
 .btn2{
     padding: 15px;
     width: 10rem;
@@ -83,4 +89,36 @@
 .main h1{
     color: goldenrod;
     font-size: 70px;
+}
+@media screen and (orientation:portrait) {
+    .image img{
+        display: none;
+    }
+    .container{
+        padding-top: 10px;
+        padding: 30px;
+    }
+    .btn1{
+        padding: 15px;
+        width: 8rem;
+        border-radius: 15px;
+        font-weight: 600;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        font-size: 15px;
+    }
+    .btn2{
+        padding: 15px;
+        width: 8rem;
+        border-radius: 15px;
+        font-weight: 600;
+        outline: none;
+        font-size:15px;
+        background-color: black;
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+        transition: 0.5s;
+    }
 }

@@ -21,7 +21,7 @@ function start() {
     }, []);
   return (
     <>
-<div className={style.container}style={{backgroundColor: light ? "white" : "black", transition:"0.5s"}}> 
+<div className={style.container} style={{backgroundColor: light ? "white" : "black", transition:"0.5s"}}> 
 
       <div className={style.head}  style={{backgroundColor: light ? "white" : "black",  transition:"0.5s"}}>
         <h1 data-aos="fade-right" onClick={()=>{
@@ -36,8 +36,8 @@ function start() {
         </div>
         </div>
  
- <div className={style.out}>
-         <div className={style.heading} id='heading'>
+ <div className={style.out} data-aos="fade-right">
+         <div className={style.heading} id='heading' >
 
             <div style={{border: light ? "1px solid black":""}} className={style.conty}>
         <div className={style.main}>
@@ -101,7 +101,7 @@ function start() {
 {open1 ?<div className={style.content} style={{color: light ? "black" : "white"}}data-aos="fade-right">
     <h1>Use a video editor app with <br/>text-to-speech voice overs </h1>
     <h4><b>Generate a natural sounding text-to-speech voice<br/> over with Flixier.
-     All you have to do is write out a<br/> script and then paste it into our neural powered<br/>
+     All you have to do  is write out a<br/> script and then paste it into our neural powered<br/>
       text-to-speech generator. Choose between multiple<br/> languages and regional accents 
       or dialects. When<br/> your voice over is generated, you can edit it and<br/> synchronize it
        with your video just like you would<br/> with any other audio track.
@@ -142,7 +142,7 @@ function start() {
 ‍ </b></h4>
 </div>:""}
 
-{open || open1 || open2 || open3 || open4 ? "":<img src="Rectangle.png" className='rec' data-aos="zoom-in" />}
+{open || open1 || open2 || open3 || open4 ? "":<img src="tr1.png" className='rec' data-aos="zoom-in" />}
   </div>
  </div>
  
@@ -150,6 +150,24 @@ function start() {
 </div>
 
 
+</div>
+
+
+<div className={style.con}  style={{backgroundColor: light ? "white" : "black", transition:"0.5s"}} >
+   <div  className={style.urb} style={{color: light ? "black" : "white"}}>
+     <div data-aos="fade-down">
+        <h1 data-aos="fade-down">Super Sound</h1>
+        <h3 data-aos="fade-down">Solo Voice SL</h3>
+     </div>
+     <p data-aos="fade-down">Use a free voice over maker that runs in your web browser</p>
+     <p data-aos="fade-down">Add a voice over to any video quickly and easily with our free<br/> voice over maker. 
+      Record yourself using your computer’s microphone,<br/> import a pre-recorded audio file or generate a 
+      natural sounding<br/> text-to-speech voice overs in multiple languages based on a script.<br/> 
+      You can use your computer’s built-in microphone to create your <br/>voiceover, or connect an external USB microphone.</p>
+      <audio controls src='wowo.mp3'></audio>
+      </div>
+
+      <img src='Rectangle.png' data-aos="zoom-in"/>
 </div>
     </>
   )
