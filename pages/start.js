@@ -91,11 +91,7 @@ function start() {
 <div className={style.config} style={{backgroundColor: light ? "white" : "", transition: light ? "0.5s":""}}>
 {open ?<div className={style.content} style={{color: light ? "black" : "white"}}data-aos="fade-right">
     <h1>Use a free voice over maker that runs <br/> in your web browser</h1>
-    <h4><b>Add a voice over to any video quickly and easily<br/> with our free voice over maker.
-      Record yourself<br/> using your computer’s microphone, import a<br/> pre-recorded audio file or 
-      generate a natural<br/> sounding text-to-speech voice overs in<br/> multiple languages based on a 
-      script. You can<br/> use your computer’
-      built-in microphone to create<br/> your voiceover, or connect an external USB microphone.  </b></h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T92yDT6g8CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>:""}
 
 {open1 ?<div className={style.content} style={{color: light ? "black" : "white"}}data-aos="fade-right">
@@ -107,17 +103,17 @@ function start() {
        with your video just like you would<br/> with any other audio track.
 
 ‍ </b></h4>
+<audio controls src='wowo.mp3'></audio>
+
 </div>:""}
 
 {open2 ? <div className={style.content} style={{color: light ? "black" : "white"}}data-aos="fade-right">
     <h1>Edit your voice overs<br/> easily  </h1>
-    <h4><b>Generate a natural sounding text-to-speech voice<br/> over with Flixier.
-     All you have to do is write out a<br/> script and then paste it into our neural powered<br/>
-      text-to-speech generator. Choose between multiple<br/> languages and regional accents 
-      or dialects. When<br/> your voice over is generated, you can edit it and<br/> synchronize it
-       with your video just like you would<br/> with any other audio track.
-
-‍ </b></h4>
+    <h4><b>Add a voice over to any video quickly and easily<br/> with our free voice over maker.
+      Record yourself<br/> using your computer’s microphone, import a<br/> pre-recorded audio file or 
+      generate a natural<br/> sounding text-to-speech voice overs in<br/> multiple languages based on a 
+      script. You can<br/> use your computer’
+      built-in microphone to create<br/> your voiceover, or connect an external USB microphone.  </b></h4>
 </div>:""}
 
 {open3 ?<div className={style.content} style={{color: light ? "black" : "white"}}data-aos="fade-right">
